@@ -1,0 +1,81 @@
+body {
+    font-family: 'Inter', sans-serif;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #141414;
+}
+
+.container {
+    background: #1f1f1f;
+    min-width: 320px;
+    width: 360px;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 1rem;
+}
+
+.profile-image {
+    width: 100px;
+    height: auto;
+    border-radius: 50%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.name {
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    margin: 10px 0;
+    color: hsl(0, 0%, 100%)
+}
+
+.location{
+    font-size: 14px;
+    color: #c4f82a;;
+}
+
+.bio {
+    font-size: 14px;
+    color: hsl(0, 0%, 100%);
+    text-align: center; 
+    margin-top: 30px;
+}
+
+.social-links {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 40px;
+    color: hsl(0, 0%, 100%);
+    font-weight: 700;
+    text-decoration: none;
+    width: 100%;
+    height: 100%;
+    border-radius: .5rem;
+    margin-bottom: 20px;
+}
+
+.social-links a {
+    border: 2px solid #333;
+    border-radius: 8px;
+    padding: 12px 0;
+    width: 100%;
+    text-align: center;
+    background: #333;
+    color: #fff;
+    transition: border-color 0.2s, background 0.2s;
+}
+
+.social-links a:hover {
+    border-color: #c4f82a;
+    background: #c4f82a;
+    color: #141414;
+}

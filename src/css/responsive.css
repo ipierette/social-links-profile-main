@@ -1,0 +1,49 @@
+/* Telas até 600px (mobile) */
+@media (max-width: 600px) {
+    .container {
+    
+        width: 80vw;
+        padding: 10px 2px;
+        border-radius: 20px;
+    }
+
+    .profile-image {
+        width: 80px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .name {
+        font-size: 20px;
+    }
+
+    .location,
+    .bio {
+        font-size: 12px;
+        margin-top: 10px;
+    }
+
+  .social-links a {
+        width: 100%;
+        font-size: 12px;
+        padding: 5px;
+    }
+}
+
+/* Telas até 400px (muito pequenas) */
+@media (max-width: 400px) {
+     
+    }
+    .profile-image {
+        width: 60px;
+    }
+
+    .name {
+        font-size: 16px;
+    }
+
+    .social-links a {
+        width: 90%;
+        font-size: 12px;
+        padding: 8px 0;
+    }
